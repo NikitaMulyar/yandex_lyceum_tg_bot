@@ -1,5 +1,6 @@
 import logging
-from telegram.ext import Application, MessageHandler, filters, CommandHandler, ConversationHandler
+from telegram.ext import Application, MessageHandler, filters, CommandHandler,\
+    ConversationHandler, JobQueue, Updater
 from telegram import ReplyKeyboardMarkup, Bot
 from config import BOT_TOKEN
 from datetime import datetime

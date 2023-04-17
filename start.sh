@@ -20,6 +20,6 @@ fi
 
 # Install the requirements
 $VIRTUALENV/bin/pip install -r requirements.txt
-
+$VIRTUALENV/bin/pip install python-telegram-bot\[job-queue\] --pre
 # Run your glorious application
 $VIRTUALENV/bin/python3 server.py
